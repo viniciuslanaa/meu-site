@@ -22,7 +22,7 @@
     --cor3: #1C5447;
     --cor4: #35544D;
     --cor5: #58c8ae83;
-    --cor6: #45d4b392;
+    --cor6: #13836955;
     
 }
 
@@ -95,7 +95,7 @@ main{
     
 }
 
-main > article > h2{  
+main h2{  
     font-family: var(--fonttitulo);
     font-weight: normal;
     margin-bottom: 10px;
@@ -112,6 +112,8 @@ main > article > p{
     line-height: 1.8em;
     font-size: 1.1em;
     text-align: justify;
+    padding-bottom: 30px;
+    
 }
 
 div.video{
@@ -149,6 +151,12 @@ aside > h3{
 
 aside > ul{
     list-style-position: inside;
+    list-style-type: none;
+    
+}
+
+abbr{
+    text-decoration: none;
 }
 
 footer{
@@ -190,4 +198,14 @@ p > strong{
     font-family: var(--fontdestaque);
     font-weight: bold;
     background-color: var(--cor0);
+}
+
+li{
+    padding: 4px;
+}
+
+abbr > strong{
+    color: black;
+    font-family: var(--fontdestaque);
+    font-weight: bold;
 }
