@@ -197,6 +197,10 @@ a#situaçoes{
 
 }
 
+a#situaçoes:hover{
+    text-decoration: underline;
+}
+
 p > strong{
     color: var(--cor4);
     font-style: italic;
