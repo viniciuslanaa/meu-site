@@ -155,6 +155,11 @@ aside > ul{
     
 }
 
+aside li{
+    line-height: 25px;
+    text-align: justify;
+}
+
 abbr{
     text-decoration: none;
 }
